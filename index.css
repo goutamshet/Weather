@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(43, 44, 45);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.card{
+    min-width: 150px;
+    max-width: 450px;
+    
+    margin: 50px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    color: rgb(40, 40, 40);
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.serach-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+#search-input{
+    min-width: 50px;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    flex:1;
+}
+
+#search-input::placeholder{
+    font-size: 14px;
+    color: rgb(113, 109, 109);
+}
+
+#search-icon{
+    width: 22px;
+}
+
+#search-icon-container{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#weather-icon{
+    width: 150px;
+}
+
+#temp{
+    font-size:36px ;
+    padding: 10px;
+    font-weight: 700;
+}
+
+#city{
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.other-weather-details{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    flex-shrink: 1;
+}
+
+.weather-details-sections{
+    display: flex;
+    padding: 10px;
+    flex: 1;
+}
+
+.weather-icon-container{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.other-weather-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.weather-details-values{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    justify-content: center;
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.val{
+  flex: 1;
+}
+
+.humidity,
+.air-speed{
+    font-size: 22px;
+}
+
+.unit{
+    font-size: 14px;
+}
